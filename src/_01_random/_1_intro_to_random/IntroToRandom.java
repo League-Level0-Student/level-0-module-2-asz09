@@ -32,7 +32,7 @@ public class IntroToRandom {
 
 			// number = ran.nextInt(_____);
 			System.out.println(number);
-			
+		ran.nextInt(100);	
 		}
 		
 		// All the numbers printed by this loop are less then the number you added - AND POSITIVE
@@ -49,7 +49,7 @@ public class IntroToRandom {
 			// For our example, this will be:  ( 75 - 25 + 1 )
 			// Also replace <lowest value> with the start of the range.  For our example, this is 25.
 			
-			// number = ran.nextInt(_____) + <lowest value>;
+			number = ran.nextInt(100-5) + 100;
 			System.out.println(number);
 			
 		}
