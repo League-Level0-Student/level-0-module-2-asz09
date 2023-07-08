@@ -54,7 +54,7 @@ public class RockPaperScissors extends JPanel implements ActionListener{
         paperButton.setPreferredSize(buttonDim);
         scissorsButton.setPreferredSize(buttonDim);
         
-        instructionLabel.setText("Choose Your Weapon!");
+        instructionLabel.setText("Choose Wisely or Nick Graham will come and get you!");
         
         add(instructionLabel);
         add(rockButton);
@@ -80,7 +80,7 @@ public class RockPaperScissors extends JPanel implements ActionListener{
         //   Don't forget to create a Random object.
 	    
         //2. Change the value of opponentSelection to be a random number between 0 and 2; 
-        int opponentSelection = 2;
+        int opponentSelection = 1;
         
         //3. Run the program again. Is the result different?
  
@@ -96,13 +96,13 @@ public class RockPaperScissors extends JPanel implements ActionListener{
                     + "The computer chose: " + convertSelection(opponentSelection) + ".\n");
         
         if(selection == opponentSelection){
-            JOptionPane.showMessageDialog(null, "No Winner.  Play again.");
+            JOptionPane.showInputDialog(null, "I've been trying to contact you regarding your car's extended warranty \n Would you like to renew it?");
         }else if((selection == 0 && opponentSelection == 2) || 
                  (selection == 1 && opponentSelection == 0) ||
                  (selection == 2 && opponentSelection == 1)){
-            JOptionPane.showMessageDialog(null, "You Win!");
+            JOptionPane.showMessageDialog(null, "You did it!!");
         }else{
-            JOptionPane.showMessageDialog(null, "You Lose!");
+            JOptionPane.showMessageDialog(null, "Nick Graham is coming for you!!!");
         }
     }
     

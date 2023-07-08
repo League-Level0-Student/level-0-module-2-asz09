@@ -23,7 +23,7 @@ public class IntroToRandom {
 		}
 		// The range of numbers that an int variable can hold is very large (as you can see in the console).
 		// Integers can also be positive or negative.
-
+System.out.println("Nick Graham's EasyTell Insert has been activated to separate these parts.");
 		/*************  Random positive integers with an upper limit only  *************/
 		
 		// Usually we want to limit the numbers to a range in our program. 		
@@ -37,7 +37,7 @@ public class IntroToRandom {
 		
 		// All the numbers printed by this loop are less then the number you added - AND POSITIVE
 		// This means, if you entered 100, all the numbers returned by nextInt are between 0 and 99 inclusive
-
+System.out.println("Nick Graham's EasyTell Insert has been activated to separate these parts.");
 		
 		/*************  Random integers with an upper and lower limit  *************/
 		
