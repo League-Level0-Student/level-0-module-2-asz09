@@ -30,9 +30,9 @@ System.out.println("Nick Graham's EasyTell Insert has been activated to separate
 		for (int i=0; i<5; i++) {
 			// Uncomment the line of code below, but replace the _____ with a positive integer (e.g. 100) before running the program			
 
-			// number = ran.nextInt(_____);
+			number = ran.nextInt(50);
 			System.out.println(number);
-		ran.nextInt(100);	
+			
 		}
 		
 		// All the numbers printed by this loop are less then the number you added - AND POSITIVE
@@ -49,7 +49,7 @@ System.out.println("Nick Graham's EasyTell Insert has been activated to separate
 			// For our example, this will be:  ( 75 - 25 + 1 )
 			// Also replace <lowest value> with the start of the range.  For our example, this is 25.
 			
-			number = ran.nextInt(100-5) + 100;
+			number = ran.nextInt(51)+25;
 			System.out.println(number);
 			
 		}
@@ -59,7 +59,11 @@ System.out.println("Nick Graham's EasyTell Insert has been activated to separate
 		/*************  Random integers with an upper and lower (negative) limit  *************/
 		
 		// Using the above example, generate 5 random numbers between -222 and 88
-
+		for (int i=0; i<5; i++) {
+			number = ran.nextInt(88+222+1)-222;
+			System.out.println(number);
+		
+		}
 
 	}
 }
