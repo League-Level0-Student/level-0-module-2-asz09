@@ -97,7 +97,7 @@ public class RockPaperScissors extends JPanel implements ActionListener{
                     + "The computer chose: " + convertSelection(opponentSelection) + ".\n");
         
         if(selection == opponentSelection){
-            JOptionPane.showInputDialog(null, "I've been trying to contact you regarding your car's extended warranty \n Would you like to renew it?");
+            JOptionPane.showInputDialog(null, "No winner, please restart your challenge.");
         }else if((selection == 0 && opponentSelection == 2) || 
                  (selection == 1 && opponentSelection == 0) ||
                  (selection == 2 && opponentSelection == 1)){
