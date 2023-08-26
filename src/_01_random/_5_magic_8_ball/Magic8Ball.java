@@ -11,32 +11,40 @@ import javax.swing.JOptionPane;
 public class Magic8Ball {
 
 	// 1. Make a main method that includes all the steps below
-public static void main(String[] args) {
-	
+	public static void main(String[] args) {
 
-	// 2. Get the user to enter a question for the 8 ball to answer
-String input = JOptionPane.showInputDialog(null,"please ask a question here.");
-	// 3. Make a variable and initialize it to a random number.
-	//     ** You will need to make a random object!
-	//     Limit the random numbers to be between 0 and 3
-Random randomMaker = new Random();
-int randomNumber = randomMaker.nextInt(4);
-	// 4. If the random number is 0
-if (randomNumber==0) {
-	String JOptionPane showMessageDialog(null,"Yes");
-	// -- tell the user "Yes"
 
-	// 5. If the random number is 1
+		// 2. Get the user to enter a question for the 8 ball to answer
+		String input = JOptionPane.showInputDialog(null,"please ask a question here.");
+		// 3. Make a variable and initialize it to a random number.
+		//     ** You will need to make a random object!
+		//     Limit the random numbers to be between 0 and 3
+		Random randomMaker = new Random();
+		int randomNumber = randomMaker.nextInt(4);
+		// 4. If the random number is 0
+		if (randomNumber==0) { 
+			JOptionPane.showMessageDialog(null,"Yes");
+		}
+		// -- tell the user "Yes"
+		// 5. If the random number is 1
+		if (randomNumber==1) { 
+			JOptionPane.showMessageDialog(null,"No");
+			// -- tell the user "No"
+		}
+		// 6. If the random number is 2
 
-	// -- tell the user "No"
-
-	// 6. If the random number is 2
-
-	// -- tell the user "Maybe you should ask Google?"
-
-	// 7. If the random number is 3
-
-	// -- write your own answer
-} 
-}
+		// -- tell the user "Maybe you should ask Google?"
+		if (randomNumber==2) { 
+			JOptionPane.showMessageDialog(null,"Maybe you should go ask Google 😉");
+			// 7. If the random number is 3
+		}
+		// -- write your own answer
+		if (randomNumber==3) { 
+			JOptionPane.showMessageDialog(null," Nobody knows, you tell me! :happy:.");
+		}
+		
+		
+		
+		//https://www.youtube.com/watch?v=dQw4w9WgXcQ
+	} 
 }
