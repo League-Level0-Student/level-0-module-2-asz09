@@ -29,9 +29,11 @@ public class AnimalFarm {
 		 *    the animal they chose using one of the methods below.
 		*/			 
 			
+		
+		 JOptionPane.showInputDialog("Which animal do you want? \n Type moo, woof, meow, llama, or quack.");
 		/* 2. Make it so that the user can keep entering new animals. */
 
-	}
+	
 
 	void moo() {
 		playNoise(mooFile);
