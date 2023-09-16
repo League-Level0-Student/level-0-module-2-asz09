@@ -17,6 +17,7 @@ public class AnimalFarm {
 	 * If you are not sure, ask your teacher 
 	 * *****************/
 	boolean canPlaySounds = true;
+	private Object moo;
 
 	
 	public static void main(String[] args) {
@@ -32,15 +33,21 @@ public class AnimalFarm {
 String input=	JOptionPane.showInputDialog(null,"Welcome to the Animal Farm! Which Animal do you want to see and hear?");
 		/* 2. Make it so that the user can keep entering new animals. */
 JOptionPane.showInputDialog("Enter More Animals!");
-}
+
+	
+	if (input="cow");
+		playSound(moo.wav);
+	if (input="llama");
+	playSound(llama.wav);
 	
 	
-	private void showMessageDialog(Object object, String string) {
+	//private void showMessageDialog(Object object, String string) {
 		// TODO Auto-generated method stub
 		
-	}
+	
 
 	void moo() {
+		
 		playNoise(mooFile);
 		showImage(cowIcon);
 	}
