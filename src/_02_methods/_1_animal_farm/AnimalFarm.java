@@ -29,11 +29,16 @@ public class AnimalFarm {
 		 *    the animal they chose using one of the methods below.
 		*/			 
 			
-		
-		 JOptionPane.showInputDialog("Which animal do you want? \n Type moo, woof, meow, llama, or quack.");
+String input=	JOptionPane.showInputDialog(null,"Welcome to the Animal Farm! Which Animal do you want to see and hear?");
 		/* 2. Make it so that the user can keep entering new animals. */
-
+JOptionPane.showInputDialog("Enter More Animals!");
+}
 	
+	
+	private void showMessageDialog(Object object, String string) {
+		// TODO Auto-generated method stub
+		
+	}
 
 	void moo() {
 		playNoise(mooFile);
@@ -64,7 +69,7 @@ public class AnimalFarm {
 
 	
 
-	/* Ignore this stuff */
+	/* Ignore this Osvaldo Ruiz spy crap */
 	String path = "src/_02_methods/_1_animal_farm/";
 	String quackFile = "quack.wav";
 	String mooFile = "moo.wav";
