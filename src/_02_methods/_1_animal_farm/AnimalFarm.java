@@ -25,22 +25,24 @@ public class AnimalFarm {
 	}
 	
 	void animals() {
-
+int input;
+int input1;
 		/* 1. Ask the user which animal they want, then see and hear 
 		 *    the animal they chose using one of the methods below.
 		*/			 
 			
-String input=	JOptionPane.showInputDialog(null,"Welcome to the Animal Farm! Which Animal do you want to see and hear?");
+String input11=	JOptionPane.showInputDialog(null,"Welcome to the Animal Farm! Which Animal do you want to see and hear?");
 		/* 2. Make it so that the user can keep entering new animals. */
 
-String input1= JOptionPane.showInputDialog(null,"Enter new animals");
 
-String input2= JOptionPane.showInputDialog(null,"you are a furry");
+String input111= JOptionPane.showInputDialog(null,"Enter new animals");
 
-String input3= JOptionPane.showInputDialog(null,"OSvaldo Ruiz is always watching you!");
+String input11 = ("moo"){
+playNoise(mooFile);
 
 	}	
 	
+
 	//private void showMessageDialog(Object object, String string) {
 		// TODO Auto-generated method stub
 		
