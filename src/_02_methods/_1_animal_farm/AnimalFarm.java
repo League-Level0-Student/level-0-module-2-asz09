@@ -32,14 +32,14 @@ public class AnimalFarm {
 			
 String input=	JOptionPane.showInputDialog(null,"Welcome to the Animal Farm! Which Animal do you want to see and hear?");
 		/* 2. Make it so that the user can keep entering new animals. */
-JOptionPane.showInputDialog("Enter More Animals!");
 
-	
-	if (input="cow");
-		playSound(moo.wav);
-	if (input="llama");
-	playSound(llama.wav);
-	
+String input1= JOptionPane.showInputDialog(null,"Enter new animals");
+
+String input2= JOptionPane.showInputDialog(null,"you are a furry");
+
+String input3= JOptionPane.showInputDialog(null,"OSvaldo Ruiz is always watching you!");
+
+	}	
 	
 	//private void showMessageDialog(Object object, String string) {
 		// TODO Auto-generated method stub
