@@ -37,9 +37,12 @@ String input11=	JOptionPane.showInputDialog(null,"Welcome to the Animal Farm! Wh
 
 String input111= JOptionPane.showInputDialog(null,"Enter new animals");
 
-String input11 = ("moo"){
+ JOptionPane.showMessageDialog(null,"Here's it all!");
 playNoise(mooFile);
-
+playNoise(meowFile);
+playNoise(llamaFile);
+playNoise(quackFile);
+playNoise(woofFile);
 	}	
 	
 
