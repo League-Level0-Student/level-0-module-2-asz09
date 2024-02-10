@@ -13,19 +13,26 @@ public class SoundtrackToLife {
 				JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Mood1", "Mood2", "Mood3" }, null);
 		
 		// 2. Their answer is stored in the userMood variable. Print it out.
-
+System.out.println(userMood);
 		// 3. If they are in a stressed mood, use the playVideo method to play a calming song from YouTube.
-		
 
-		
+if(userMood==0) {
+	playVideo("https://www.youtube.com/watch?v=KT7F15T9VBIz");
+}
+else if(userMood==1) {
+	playVideo("https://www.youtube.com/watch?v=aQUlA8Hcv4s");
+}
+else if(userMood==2) {
+	playVideo("https://www.youtube.com/watch?v=Cjp6RVrOOW0");
+}
 		// 4. Play different songs for other moods.
 
-/**
-* If you can't think of any, here are some you can use...
-*	http://bit.ly/video-for-happy
-*	http://bit.ly/video-for-sad
-*	http://bit.ly/video-for-angry
-**/
+
+
+	//https://www.youtube.com/watch?v=Cjp6RVrOOW0
+	//https://www.youtube.com/watch?v=wuJIqmha2Hk
+	//https://www.youtube.com/watch?v=KT7F15T9VBI
+
 		
 		// If you are seeing ads at the beginning of your videos, install Adblock.
 
