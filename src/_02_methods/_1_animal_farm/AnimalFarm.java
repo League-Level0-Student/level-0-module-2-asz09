@@ -65,6 +65,7 @@ public class AnimalFarm {
 
 
 } 
+@SuppressWarnings("unused")
 private void llama() {
 		// TODO Auto-generated method stub
 		
